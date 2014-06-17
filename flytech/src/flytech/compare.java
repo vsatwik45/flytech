@@ -4,7 +4,9 @@ package flytech;
 import java.util.Scanner;
 
 class compare
-{
+{  
+	//remove this main. remove compare logic to StringUtil
+	// remember only one client should exsist, dont put main method to every class that u wrote.  
    public static void main(String args[])
    {
       String s1, s2;
