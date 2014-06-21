@@ -4,9 +4,6 @@ public class client {
 	
 
 		   public static void main(String args[]){
-			   
-			   
-			  String result = StringUtil.reverse("satwik"); 
 
 		      String word="satwik";
 
@@ -26,8 +23,6 @@ public class client {
 		     
 		      word = word.substring(0, 4);
 		      System.out.println("sub string: " + word);
-
-		      
 		   }
 		}
 

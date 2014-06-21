@@ -1,22 +1,24 @@
 package flytech;
 
-//   put upper case class name,  naming convention 
-class overload {
-	public int add(int a, int b) {
-		int result = 0;
-		return result;
+ class sample {
+	
+	       int addition(int i, int j)
+	       {
+	               return i + j ;
+	        }
+	                
 	}
 
-	public float add(float a, float b) {
-		float result = 0;
-
-		return result;
+	class overload
+	{
+	      public static void main(String args[])
+	      {
+	              sample add = new sample();
+	   
+	              System.out.println(add.addition(1,2));
+	             
+	       }
 	}
 
-	public double add(double a, double b) {
-		double result = 0;
 
-		return result;
-	}
 
-}
